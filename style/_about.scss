@@ -1,0 +1,47 @@
+.projects {
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+
+    &__blue-square {
+        background: #55b7ff;
+        left: -215px;
+    }
+
+    &__img {
+        z-index: 5;
+    }
+
+    &__description {
+        max-width: 470px;
+        display: flex;
+        flex-direction: column;
+        padding: 65px 0;
+        justify-content: space-between;
+    }
+    &__title {
+        font-size: 24px;
+        text-transform: uppercase;
+    }
+
+    &__trade-center {
+        font-size: 44px;
+        font-weight: 700;
+        color: #5d656e;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        font-size: 18px;
+    }
+
+    &__address {
+        font-style: italic;
+    }
+
+    &__violet-square {
+        background: #7e5aff;
+        position: absolute;
+        right: -215px;
+        
+    }
+}

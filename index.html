@@ -1,13 +1,315 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monticello</title>
     <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="images/img-9.jpg" />
 </head>
+
 <body>
-    <h1>Hello world!</h1>
+    <header class="header">
+        <nav class="nav">
+            <a href="#"><img src="images/Logo.png" alt="logo" class="nav__logo"></a>
+            
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#about us" class="nav__link">About Us</a></li>
+                <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                <li class="nav__item"><a href="#news" class="nav__link">News</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+            <div class="nav__social">
+                <a href="https://www.facebook.com/" class="nav__icons"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/" class="nav__icons"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/" class="nav__icons"><i class="fab fa-instagram"></i></a>                
+                
+            </div>
+        </nav>
+
+        <div class="1slider">
+            <div class="title">
+                <h1 class="title__title">
+                    Simple & mordern
+                </h1>
+                <p class="title__text">We make the world's beautiful every day</p>
+
+            </div>
+            <div class="title">
+                <h1 class="title__title">
+                    Simple & mordern
+                </h1>
+                <p class="title__text">We make the world's beautiful every day</p>
+
+            </div>
+            <div class="title">
+                <h1 class="title__title">
+                    Simple & mordern
+                </h1>
+                <p class="title__text">We make the world's beautiful every day</p>
+
+            </div>
+            <div class="title">
+                <h1 class="title__title">
+                    Simple & mordern
+                </h1>
+                <p class="title__text">We make the world's beautiful every day</p>
+
+            </div>
+        </div>
+            <a href="#projects" class="chevron-down"><i class="fas fa-chevron-down"></i></a>
+
+
+
+    </header>
+
+    <section class="projects" id="projects">
+        <h2>What we do</h2>
+        <div class="container container-what-we-do">
+            <div class="projects__blue-square square"></div>
+            <img src="images/img-1.jpg" alt="trade center" class="projects__img">
+            <div class="projects__description">
+                <p class="projects__title">One World</p>
+                <p class="projects__trade-center">Trade center</p>
+                <p class="projects__text"> Increasing prosperity in our lives can be accomplished
+                    by having the right frame of mind. The truth is, our
+                    thoughts are very powerful.
+                </p>
+                <button class="projects__btn btn">More detalis</button>
+                <p class="projects__address"><i class="fas fa-map-marker-alt"></i> New York City, United States-1776 feet
+                </p>
+            </div>
+
+        </div>
+
+        <div class="container container-what-we-do">
+            <div class="projects__description">
+                <p class="projects__title">International</p>
+                <p class="projects__trade-center">Commerce center</p>
+                <p class="projects__text"> Successful businesses have many things in common, today we’ll
+                    look at the big ‘R’ of recognition and how a digital advertising
+                    network may help.
+
+
+                </p>
+                <button class="projects__btn btn">More detalis</button>
+                <p class="projects__address"><i class="fas fa-map-marker-alt"></i> Hong Kong-1588 feet
+                </p>
+            </div>
+            <div class="projects__violet-square square"></div>
+            <img src="images/img2.jpg" alt="commerce center" class="projects__img">
+
+        </div>
+    </section>
+
+    <section class="news" id="news">
+        <h2 class="news__title">Latest news</h2>
+
+        <div class="slider container">
+            <div class="card card">
+                <div class="card__img">
+                    <img src="images/img3.jpg" alt="foto">
+
+                </div>
+                <div class="card__description description-card">
+                    <p class="card__title title-card">See the unmayched beauty of the great.</p>
+                    <p class="card__text text-card">Free directories: directories are perfect for customers that are...
+                        searching for a</p>
+                    <div class="card__author author">
+                        <div>
+                            <img src="images/1-foto.jpg" alt="picture" class="card__foto foto">
+
+                        </div>
+                        <div class="card__human human">
+                            <p class="card__name name">Isaak Dunn</p>
+                            <p class="card__date date">09 Feb 2017</p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="card card">
+                <div class="card__img">
+                    <img src="images/img4.jpg" alt="foto">
+
+                </div>
+                <div class="card__description">
+                    <p class="card__title">Effective Advertising Pointers.</p>
+                    <p class="card__text">Having a home based business is a wonderful asset to your life...</p>
+                    <div class="card__author author">
+                        <div>
+                            <img src="images/2-foto.jpg" alt="picture" class="card__foto foto">
+
+                        </div>
+                        <div class="card__human human">
+                            <p class="card__name name">Dominik Freeman</p>
+                            <p class="card__date date">24 Apr 2017</p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="card card">
+                <div class="card__img">
+                    <img src="images/img5.jpg" alt="foto">
+
+                </div>
+                <div class="card__description">
+                    <p class="card__title">Hypnotize Yourself Into The Ghost.
+                    </p>
+                    <p class="card__text">There are many things that are important to catalog design....</p>
+                    <div class="card__author author">
+                        <div>
+                            <img src="images/3-foto.jpg" alt="picture" class="ca__foto foto">
+
+                        </div>
+                        <div class="card__human human">
+                            <p class="card__name name">Alice Ward</p>
+                            <p class="card__date date">30 Dec 2017</p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="card card">
+                <div class="card__img">
+                    <img src="images/img5.jpg" alt="foto">
+
+                </div>
+                <div class="card__description">
+                    <p class="card__title">Hypnotize Yourself Into The Ghost.
+                    </p>
+                    <p class="card__text">There are many things that are important to catalog design....</p>
+                    <div class="card__author author">
+                        <div>
+                            <img src="images/3-foto.jpg" alt="picture" class="ca__foto foto">
+
+                        </div>
+                        <div class="card__human human">
+                            <p class="card__name name">Alice Ward</p>
+                            <p class="card__date date">30 Dec 2017</p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="card card">
+                <div class="card__img">
+                    <img src="images/img5.jpg" alt="foto">
+
+                </div>
+                <div class="card__description">
+                    <p class="card__title">Hypnotize Yourself Into The Ghost.
+                    </p>
+                    <p class="card__text">There are many things that are important to catalog design....</p>
+                    <div class="card__author author">
+                        <div>
+                            <img src="images/3-foto.jpg" alt="picture" class="ca__foto foto">
+
+                        </div>
+                        <div class="card__human human">
+                            <p class="card__name name">Alice Ward</p>
+                            <p class="card__date date">30 Dec 2017</p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="gallery">
+        <h2>Gallery</h2>
+        <div class="container">
+            <div class="gallery__first-img">
+                <img src="images/img-6.jpg" alt="images">
+            </div>
+            <div class="gallery__right-block">
+                <div class="gallery__img"><img src="images/img-7.jpg" alt="images"></div>
+                <div class="gallery__img"><img src="images/img-8.jpg" alt="images"></div>
+                <div class="gallery__img"><img src="images/img-9.jpg" alt="images"></div>
+                <div class="gallery__img"><img src="images/img-10.jpg" alt="images"></div>
+            </div>
+        </div>
+        <button class="gallery__btn btn">See more</button>
+
+    </section>
+
+    <section class="contact" id="contact">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d82744.5586081163!2d34.48719882602018!3d49.60213457631866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d825e425e6ba6b%3A0xcf3e6bdfb9e4ca82!2sPoltava%2C%20Poltava%20Oblast%2C%2036000!5e0!3m2!1sen!2sua!4v1625997984071!5m2!1sen!2sua"
+            width="100%" height="700" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        <form action="#" class="form">
+            <h2 class="form__title">Get in touch</h2>
+            <div class="form__content">
+                <div class="form__contact">
+                    <a href="https://goo.gl/maps/yK5RzuUZ7N5ZQG6w7" target="blank" class="form__contacts"><i class="fas fa-map-marker-alt"></i> 91 Nolan Extensions Suite 670</a>
+                    <a href="tel: +001 356-868-2454" class="form__contacts"><i class="fas fa-phone-alt"></i> +001 356-868-2454</a>
+                    <a href="mailto: gahuy93@gmail.com" class="form__contacts"><i class="fas fa-inbox"></i> gahuy93@gmail.com</a>
+                    <a href="#" class="form__contacts"><i class="far fa-clock"></i> From 07:05AM to 19:30PM</a>
+
+                </div>
+                <div class="form__inputs">
+                    <input type="text" placeholder="Name" class="form__input">
+                    <input type="text" placeholder="Email" class="form__input">
+
+                </div>
+            </div>
+            <button class="form__btn btn">Submit</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div>
+                <a href="#"><img src="images/Logo.png" alt="logo"></a>
+                <div class="wrapper">
+                    <p class="footer-container__copyrights">Copyrights © 2017 Monticello</p>
+                    <p>Made with <i class="fas fa-heart"></i> by Ga Huy</p>
+
+                </div>
+            </div>
+            <div class="nav__social">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+    <script src="https://kit.fontawesome.com/1fd696cee6.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="js/1slider.js"></script>
+    <script src="js/slider.js"></script>
+    <script>
+        var $page = $('html, body');
+$('a[href*="#"]').click(function() {
+    $page.animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 2000);
+    return false;
+});
+    </script>
 </body>
+
 </html>

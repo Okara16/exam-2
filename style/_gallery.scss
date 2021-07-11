@@ -1,0 +1,28 @@
+.gallery {
+    padding-bottom: 135px;
+
+    &__firs-img {
+       position: relative;
+    }
+
+    &__first-img::after {
+        content: url(../images/ellips.png);
+        position: absolute;
+        top: 184px;
+        left: 260px;
+    }
+
+    &__right-block {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 10px;
+    }
+
+    &__btn {
+        display: block;
+        margin: 0 auto;
+        margin-top: 55px;
+    }
+}
